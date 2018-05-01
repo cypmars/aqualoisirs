@@ -30,6 +30,8 @@ body {
     background-position: 50% 50%;
     }
 
+
+
 /* Paragraph for Parallax Section */ 
 .paral p {
     font-size: 24px;
@@ -41,7 +43,7 @@ body {
     /* Heading for Parallax Section */ 
     .paral h1 {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     padding-top: 60px;
     line-height: 100px;
@@ -49,10 +51,14 @@ body {
 
 /* Image for Parallax Section */ 
 .paralsec {
+    background-image: url("../assets/img/title.png");
+    }
+
+.paralsec1 {
 background-image: url("../assets/img/diapo4.jpg");
 }
  
-.paralsec1 {
+.paralsec2 {
 background-image: url("../assets/img/title2.jpg");}
 
 .fixed-item{
@@ -69,7 +75,14 @@ background-image: url("../assets/img/title2.jpg");}
 }
 
 .hei-50{
-    height: 300px;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 80% -200px;
+}
+
+.pink-text{
+    color: #e10052;
 }
 
 @media only screen and (min-width: 993px){
@@ -80,7 +93,11 @@ background-image: url("../assets/img/title2.jpg");}
     }
 
     .hei-50{
-        height: 500px;
+        min-height: 500px;
+    }
+
+    .paral h1{
+        font-size: 60px;
     }
 }
 /* Remove Bottom Margin from Jumbotron */
