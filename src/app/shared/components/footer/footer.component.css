@@ -16,6 +16,13 @@ li{
   list-style-type: none;
 }
 
+.weather-container{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
 .footer {
   /* position: absolute; */
   /* bottom: 0; */
