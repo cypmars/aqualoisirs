@@ -1,0 +1,423 @@
+[
+    {
+        "id": 0,
+        "title": "Accueil"
+    },
+    {
+        "id": 1,
+        "title": "Activités Voile",
+        "activities": [
+            {
+                "id": 0,
+                "name": "Dérive & Voile",
+                "categories": [
+                    {
+                        "name": "Locations",
+                        "priceTime": [
+                            { "time": "1 heure", "price": 21 },
+                            { "time": "2 heures", "price": 39 },
+                            { "time": "3 heures", "price": 56 },
+                            { "time": "4 heures", "price": 56 },
+                            { "time": "1 journée", "price": 80 },
+                            { "time": "5 heures au choix", "price": 89 },
+                            { "time": "10 heures au choix", "price": 165 },
+                            { "time": "1 semaine", "price": 332 }
+                        ]
+                    }
+                ],
+                "pictures": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Planche à Voile",
+                "categories": [
+                    {
+                        "name": "Locations",
+                        "priceTime": [
+                            { "time": "1 heure", "price": 17 },
+                            { "time": "2 heures", "price": 32 },
+                            { "time": "3 heures", "price": 46 },
+                            { "time": "4 heures", "price": 46 },
+                            { "time": "1 journée", "price": 69 },
+                            { "time": "5 heures au choix", "price": 76 },
+                            { "time": "10 heures au choix", "price": 141 },
+                            { "time": "1 semaine", "price": 275 }
+                        ]
+                    },
+                    {
+                        "name": "Cours Collectifs",
+                        "indications": [
+                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                        ],
+                        "priceTime": [
+                            { "time": "1h30", "price": 27 },
+                            { "time": "3 x 1h30", "price": 74 },
+                            { "time": "6 x 1h30", "price": 139 }
+                        ]
+                    },
+                    {
+                        "name": "Cours Particuliers",
+                        "indications": [
+                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                        ],
+                        "multiCat": [
+                            {
+                                "description": "1 personne",
+                                "priceTime": [
+                                    { "time": "1h", "price": 55 },
+                                    { "time": "3 x 1h", "price": 134 },
+                                    { "time": "6 x 1h", "price": 254 }
+                                ]
+                            },
+                            {
+                                "description": "2 personnes",
+                                "priceTime": [
+                                    { "time": "1h", "price": 72 },
+                                    { "time": "3 x 1h", "price": 166 },
+                                    { "time": "6 x 1h", "price": 324 }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pictures": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Fun Board",
+                "categories": [
+                    {
+                        "name": "Locations",
+                        "priceTime": [
+                            { "time": "1 heure", "price": 26 },
+                            { "time": "2 heures", "price": 45 },
+                            { "time": "3 heures", "price": 67 },
+                            { "time": "4 heures", "price": 67 },
+                            { "time": "1 journée", "price": 91 },
+                            { "time": "5 heures au choix", "price": 102 },
+                            { "time": "10 heures au choix", "price": 188 },
+                            { "time": "1 semaine", "price": 389 }
+                        ]
+                    },
+                    {
+                        "name": "Cours Particuliers",
+                        "indications": [
+                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                        ],
+                        "priceTime": [
+                            { "time": "1h", "price": 72 },
+                            { "time": "3 x 1h", "price": 166 },
+                            { "time": "6 x 1h", "price": 324 }
+                        ]
+                    }
+                ],
+                "pictures": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "id": 3,
+                "name": "HobieCat",
+                "categories": [
+                    {
+                        "name": "Locations",
+                        "multiCat": [
+                            {
+                                "description": "Hobie Cat Dragoon",
+                                "priceTime": [
+                                    { "time": "1 heure", "price": 38 },
+                                    { "time": "2 heures", "price": 65 },
+                                    { "time": "3 heures", "price": 89 },
+                                    { "time": "4 heures", "price": 89 },
+                                    { "time": "1 journée", "price": 133 },
+                                    { "time": "5 heures au choix", "price": 149 },
+                                    { "time": "10 heures au choix", "price": 277 },
+                                    { "time": "1 semaine", "price": 581 }
+                                ]
+                            },
+                            {
+                                "description": "Hobie Cat 15/Découverte",
+                                "priceTime": [
+                                    { "time": "1 heure", "price": 38 },
+                                    { "time": "2 heures", "price": 72 },
+                                    { "time": "3 heures", "price": 98 },
+                                    { "time": "4 heures", "price": 98 },
+                                    { "time": "1 journée", "price": 152 },
+                                    { "time": "5 heures au choix", "price": 168 },
+                                    { "time": "10 heures au choix", "price": 308 },
+                                    { "time": "1 semaine", "price": 644 }
+                                ]
+                            },
+                            {
+                                "description": "Hobie Cat 16/Sportif",
+                                "priceTime": [
+                                    { "time": "1 heure", "price": 47 },
+                                    { "time": "2 heures", "price": 82 },
+                                    { "time": "3 heures", "price": 112 },
+                                    { "time": "4 heures", "price": 112 },
+                                    { "time": "1 journée", "price": 166 },
+                                    { "time": "5 heures au choix", "price": 173 },
+                                    { "time": "10 heures au choix", "price": 340 },
+                                    { "time": "1 semaine", "price": 721 }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cours Collectifs",
+                        "indications": [
+                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                        ],
+                        "priceTime": [
+                            { "time": "1h30", "price": 34 },
+                            { "time": "3 x 1h30", "price": 93 },
+                            { "time": "6 x 1h30", "price": 172 }
+                        ]
+                    },
+                    {
+                        "name": "Cours Particuliers",
+                        "indications": [
+                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                        ],
+                        "multiCat": [
+                            {
+                                "description": "1 personne - Découverte ou Sportif",
+                                "priceTime": [
+                                    { "time": "1h", "price": 55 },
+                                    { "time": "3 x 1h", "price": 134 },
+                                    { "time": "6 x 1h", "price": 254 }
+                                ]
+                            },
+                            {
+                                "description": "2 personnes - Découverte ou Sportif",
+                                "priceTime": [
+                                    { "time": "1h", "price": 72 },
+                                    { "time": "3 x 1h", "price": 166 },
+                                    { "time": "6 x 1h", "price": 324 }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pictures": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Kayak",
+                "categories": [
+                    {
+                        "name": "Locations",
+                        "multiCat": [
+                            {
+                                "description": "Kayak Simple",
+                                "priceTime": [
+                                    { "time": "1 heure", "price": 13 },
+                                    { "time": "2 heures", "price": 24 },
+                                    { "time": "3 heures", "price": 35 },
+                                    { "time": "4 heures", "price": 35 },
+                                    { "time": "1 journée", "price": 52 },
+                                    { "time": "5 heures au choix", "price": 57 },
+                                    { "time": "10 heures au choix", "price": 103 },
+                                    { "time": "1 semaine", "price": 194 }
+                                ]
+                            },
+                            {
+                                "description": "Kayak Double",
+                                "priceTime": [
+                                    { "time": "1 heure", "price": 17 },
+                                    { "time": "2 heures", "price": 32 },
+                                    { "time": "3 heures", "price": 46 },
+                                    { "time": "4 heures", "price": 46 },
+                                    { "time": "1 journée", "price": 69 },
+                                    { "time": "5 heures au choix", "price": 76 },
+                                    { "time": "10 heures au choix", "price": 141 },
+                                    { "time": "1 semaine", "price": 275 }
+                                ]
+                            },
+                            {
+                                "description": "Kayak Quattro",
+                                "priceTime": [
+                                    { "time": "1 heure", "price": 20 },
+                                    { "time": "2 heures", "price": 38 },
+                                    { "time": "3 heures", "price": 54 },
+                                    { "time": "4 heures", "price": 54 },
+                                    { "time": "1 journée", "price": 79 },
+                                    { "time": "5 heures au choix", "price": 90 },
+                                    { "time": "10 heures au choix", "price": 165 }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Randonnées",
+                        "indications": [
+                            "Guidés par un moniteur diplômé, partez à la découverte de nos côtes sauvages et notamment de la crique de Cala Muretta, accessible uniquement par la mer",
+                            "Accessible à tous !"
+                        ],
+                        "priceRando": [
+                            { "time": "1h30", "price": "35€ / Personne" }
+                        ]
+                    }
+                ],
+                "pictures": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Optimist",
+                "categories": [
+                    {
+                        "name": "Locations",
+                        "priceTime": [
+                            { "time": "1 heure", "price": 17 },
+                            { "time": "2 heures", "price": 32 },
+                            { "time": "3 heures", "price": 46 },
+                            { "time": "4 heures", "price": 46 },
+                            { "time": "1 journée", "price": 69 },
+                            { "time": "5 heures au choix", "price": 76 },
+                            { "time": "10 heures au choix", "price": 141 },
+                            { "time": "1 semaine", "price": 275 }
+                        ]
+                    },
+                    {
+                        "name": "Cours Collectifs",
+                        "indications": [
+                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                        ],
+                        "priceTime": [
+                            { "time": "1h30", "price": 27 },
+                            { "time": "3 x 1h30", "price": 74 },
+                            { "time": "6 x 1h30", "price": 139 }
+                        ]
+                    },
+                    {
+                        "name": "Cours Particuliers",
+                        "indications": [
+                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                        ],
+                        "priceTime": [
+                            { "time": "1h", "price": 55 },
+                            { "time": "3 x 1h", "price": 134 },
+                            { "time": "6 x 1h", "price": 254 }
+                        ]
+                    }
+                ],
+                "pictures": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Fun Boat",
+                "categories": [
+                    {
+                        "name": "Locations",
+                        "priceTime": [
+                            { "time": "1 heure", "price": 28 },
+                            { "time": "2 heures", "price": 53 },
+                            { "time": "3 heures", "price": 79 },
+                            { "time": "4 heures", "price": 79 },
+                            { "time": "5 heures au choix", "price": 125 },
+                        ]
+                    },
+                    {
+                        "name": "Cours Collectifs",
+                        "indications": [
+                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                        ],
+                        "priceTime": [
+                            { "time": "1h30", "price": 27 },
+                            { "time": "3 x 1h30", "price": 74 },
+                            { "time": "6 x 1h30", "price": 139 }
+                        ]
+                    },
+                    {
+                        "name": "Cours Particuliers",
+                        "indications": [
+                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                        ],
+                        "priceTime": [
+                            { "time": "1h", "price": 55 },
+                            { "time": "3 x 1h", "price": 134 },
+                            { "time": "6 x 1h", "price": 254 }
+                        ]
+                    }
+                ],
+                "pictures": [
+                    "",
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Activités Nautique",
+        "activities": [
+            {
+                "id": 0,
+                "name": "Bouées & Canapés Tractés"
+            },
+            {
+                "id": 1,
+                "name": "Ski Nautique et Wakeboard"
+            },
+            {
+                "id": 2,
+                "name": "Pédalo"
+            },
+            {
+                "id": 3,
+                "name": "Paddle & Paddle Eclipse"
+            },
+            {
+                "id": 4,
+                "name": "AquaGym & Natation"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Surf"
+    },
+    {
+        "id": 4,
+        "title": "Transat"
+    },
+    {
+        "id": 5,
+        "title": "Location Bateaux",
+        "activities": [
+            {
+                "id": 0,
+                "name": "Avec Permis"
+            },
+            {
+                "id": 1,
+                "name": "Sans Permis"
+            },
+            {
+                "id": 2,
+                "name": "Jet Ski"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Contact"
+    }
+]
+    

@@ -7,6 +7,7 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
 
 import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     NgbModule.forRoot()
   ],
   providers: [],

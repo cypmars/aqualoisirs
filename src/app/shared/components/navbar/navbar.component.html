@@ -5,18 +5,15 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
-      <li *ngFor="let item of mainItems" class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-     
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" *ngFor="let item of mainItems" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
+      <div *ngFor="let item of dropdownItems; let i = index">
+        <li class="nav-item" [ngClass]="{'dropdown': item.activities && item.activities.length > 0, 'active': item.id === 0}">
+          <a class="nav-link dropdown-toggle" *ngIf="item.activities && item.activities.length > 0" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{item.title}}</a>
+          <div class="dropdown-menu" *ngIf="item.activities && item.activities.length > 0" aria-labelledby="dropdown01">
+            <a class="dropdown-item" *ngFor="let activity of item.activities; let j = index" (click)="goToActivityPage(i, j)" >{{activity.name}}</a>
+          </div>
+          <a class="nav-link" *ngIf="!item.activities || item.activities.length === 0" (click)="goToActivityPage(i)">{{item.title}}</a>
+        </li>
+      </div>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">

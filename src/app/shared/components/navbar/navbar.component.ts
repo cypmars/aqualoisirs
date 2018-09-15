@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { DropdownItem } from '../../models/dropdownItem';
+import { HttpClient } from 'selenium-webdriver/http';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  @Input() dropdownItems: Array<DropdownItem>;
+
+  constructor(
+
+  ) {
+
+  }
 
   ngOnInit() {
+
+  }
+
+  goToActivityPage(dropItemIndex: number, activityIndex?: number) {
+    console.log('dropItemIndex: ', dropItemIndex, ', activityIndex: ', activityIndex);
   }
 
 }
